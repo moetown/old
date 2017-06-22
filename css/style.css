@@ -404,30 +404,61 @@ a.icon {
   
 }
 
-.header-one .header-thumb,
-.header-two .header-thumb,
-.header-three .header-thumb,
-.header-four .header-thumb,
-.header-five .header-thumb {
+#header .header-thumb {
   padding: 32px 20px 32px 20px !important;
 }
 
-.header-one, .header-two,
-.header-three, .header-four,
-.header-five {
+#header {
   height: 42vh !important;
   min-height: 420px;
   padding-top: 120px !important;
 }
 
+/* index page*/
 .header-one {
-  background: url('../images/header.jpg') no-repeat;
+  background: url('../images/header-firstpage.jpg') no-repeat;
   height: 60vh !important;
   min-height: 520px;
   padding-top: 150px !important;
 }
-.header-two, .header-three, .header-four, .header-five {
-  background: url('../images/header.jpg') no-repeat;
+/*about page */
+.header-two {
+    background: url('../images/header-about.jpg') no-repeat;
+}
+
+/*blog page*/
+.header-three {
+    background: url('../images/header-blog.jpg') no-repeat;
+}
+
+/* contact page */
+.header-four  {
+    background: url('../images/header-contact.jpg') no-repeat;
+}
+
+/*malvagard project page */
+.header-five {
+  background: url('../images/header-malvagard.jpg') no-repeat;
+}
+/*volvo page */
+.header-six {
+  background: url('../images/header-volvo.jpg') no-repeat;
+}
+/*ericsson page*/
+.header-seven {
+  background: url('../images/header-ericsson.jpg') no-repeat;
+}
+/*eumundi page*/
+.header-eight {
+  background: url('../images/header-eumundi.jpg') no-repeat;
+}
+/*other project page*/
+.header-nine {
+  background: url('../images/header-ownprojects.jpg') no-repeat;
+}
+/*methods and tools page*/
+.header-ten {
+  background: url('../images/header-method.jpg') no-repeat;
 }
 
 
@@ -573,6 +604,37 @@ a.icon {
     height: 300px;
     overflow: hidden;
     border: none; 
+}
+
+.animated_gallery
+{
+    display:inline-block;
+    border:0;
+    width:33%;;
+    height:auto;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+
+}
+.animated_gallery:hover
+{
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
 }
 /* about section styles
 /* ========================================== */
