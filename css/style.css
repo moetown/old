@@ -1,6 +1,6 @@
 
 
-/* Body 
+/* Body
 ------------------------------------- */
 body {
     background: #ffffff;
@@ -176,7 +176,7 @@ nav a {
   text-decoration: none;
 }
 
-.navicon {  
+.navicon {
   position: relative;
   right: 0;
   display: -webkit-flex;
@@ -252,7 +252,7 @@ a.icon {
   padding-right: 20px;
 }
 
-.intro-inner {  
+.intro-inner {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -401,7 +401,7 @@ a.icon {
   background: #ffffff;
   border: 10px solid #f9f9f9;
   padding: 62px 20px 62px 20px;
-  
+
 }
 
 #header .header-thumb {
@@ -478,7 +478,7 @@ a.icon {
   position: relative;
   overflow: hidden;
   margin: 0;
-} 
+}
 
 #portfolio .portfolio-thumb .portfolio-overlay {
   background: #141414;
@@ -576,7 +576,7 @@ a.icon {
     width: 100%;
     height: 100%;
     overflow: hidden;
-} 
+}
 
 .fluid-img {
     width: 100%;
@@ -603,7 +603,7 @@ a.icon {
     width: 100%;
     height: 300px;
     overflow: hidden;
-    border: none; 
+    border: none;
 }
 
 .animated_gallery
@@ -615,13 +615,13 @@ a.icon {
     position: relative;
     margin-top: 40px;
     -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1); 
+    -webkit-transform: scale(1);
     -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1); 
+    -ms-transform: scale(1);
     -moz-transition: all 200ms ease-in;
     -moz-transform: scale(1);
     transition: all 200ms ease-in;
-    transform: scale(1);   
+    transform: scale(1);
 
 }
 .animated_gallery:hover
@@ -631,7 +631,7 @@ a.icon {
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1.5);
     -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.5);   
+    -ms-transform: scale(1.5);
     -moz-transition: all 200ms ease-in;
     -moz-transform: scale(1.5);
     transition: all 200ms ease-in;
@@ -639,7 +639,7 @@ a.icon {
 }
 
 .block {
-    display: block; 
+    display: block;
 }
 /* about section styles
 /* ========================================== */
@@ -663,12 +663,12 @@ a.icon {
 }
 
 .centre {
-    text-align: center; 
+    text-align: center;
 }
 
 /* blog & single post section styles
 /* ========================================== */
-#blog, 
+#blog,
 #single-post {
   padding-top: 4rem;
   padding-bottom: 6rem;
@@ -774,7 +774,7 @@ a.icon {
   margin-top: 40px;
   position: relative;
   z-index: 999;
-  background: grey; 
+  background: grey;
 }
 
 
@@ -835,6 +835,9 @@ footer {
   text-align: center;
 }
 
+.hide {
+    display: none; 
+}
 
 /* social icon */
 .social-icon {
